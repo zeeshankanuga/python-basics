@@ -13,3 +13,4 @@ where all desired emails are stored in this file.
 # \b isolates the pattern to find emails anywhere in the text block
 list_of_emails = re.findall(r"\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b", text)
 print(list_of_emails)
+ 
