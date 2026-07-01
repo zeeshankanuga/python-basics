@@ -1,0 +1,31 @@
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+%(asctime)s - WARNING - This is a warning message
+%(asctime)s - ERROR - This is an error message
+%(asctime)s - CRITICAL - This is a critical message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+%m-01-26 16:16:04 INFO This is an info message
+%m-01-26 16:16:04 WARNING This is a warning message
+%m-01-26 16:16:04 ERROR This is an error message
+%m-01-26 16:16:04 CRITICAL This is a critical message
+%m-01-26 16:16:34 INFO This is an info message
+%m-01-26 16:16:34 WARNING This is a warning message
+%m-01-26 16:16:34 ERROR This is an error message
+%m-01-26 16:16:34 CRITICAL This is a critical message
+%d-%m-%y %H:%M:%S INFO This is an info message
+%d-%m-%y %H:%M:%S WARNING This is a warning message
+%d-%m-%y %H:%M:%S ERROR This is an error message
+%d-%m-%y %H:%M:%S CRITICAL This is a critical message
+01-07-26 16:17:36 INFO This is an info message
+01-07-26 16:17:36 WARNING This is a warning message
+01-07-26 16:17:36 ERROR This is an error message
+01-07-26 16:17:36 CRITICAL This is a critical message
