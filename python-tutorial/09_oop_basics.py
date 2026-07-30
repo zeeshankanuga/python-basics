@@ -622,7 +622,14 @@ print("=" * 60)
 class SerializableMixin:
     def to_json(self):
         import json
-        return json.dumps(self.__dict__)
+        from datetime import datetime
+        
+        def default(obj):
+            if isinstance(obj, datetime):
+                return obj.isoformat()
+            raise TypeError(f'Object of type {obj.__class__.__name__} is not JSON serializable')
+        
+        return json.dumps(self.__dict__, default=default)
     
     def to_dict(self):
         return self.__dict__
