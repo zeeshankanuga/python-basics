@@ -1,6 +1,6 @@
 # Complete Python Learning Tutorial
 
-Based on the Python tutorial video (https://youtu.be/mM6X7wjEtag), this repository contains a comprehensive learning path from Python basics to intermediate concepts with practical examples.
+This repository contains a comprehensive learning path from Python basics to intermediate concepts with practical examples.
 
 ## 📚 Learning Path Overview
 
